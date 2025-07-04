@@ -3,7 +3,7 @@
         "source_csv": "C:/Users/96bra/OneDrive/Desktop/Talkalotta_GMBDs/venv/TKLTA_Runespace/TKLTA_SUJI_100.csv",
         "output_json": "C:/Users/96bra/OneDrive/Desktop/Talkalotta_GMBDs/venv/TKLTA_Runespace/TKLTA_SUJI_100_MBDS.json",
         "model_used": "sentence-transformers/LaBSE",
-        "generated_on": "2025-07-03T21:31:36.584993",
+        "generated_on": "2025-07-04T13:14:44.400454",
         "sentence_count": 100,
         "format_description": "Dict[str, List[float]] - sentence to embedding mapping"
     },
