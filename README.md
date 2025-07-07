@@ -45,25 +45,3 @@ Files without the `metadata` block start directly with the sentence keys.  Regar
   }
 }
 ```
-
-## Loading embeddings
-
-```python
-import json
-
-with open('TKLTA_USEN_100_MBDS.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-
-# For files with metadata, access the `embeddings` key
-embeddings = data.get('embeddings', data)
-first_sentence = next(iter(embeddings))
-vector = embeddings[first_sentence]
-print(len(vector))  # 768
-```
-
-## License
-
-All files in this repository are part of the **Talkalotta Corpora** and are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).  When using these embeddings, please credit Talkalotta as follows:
-
-> "**[Name of Specific Dataset]** by **Talkalotta**, part of the Talkalotta Corpora, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
-
