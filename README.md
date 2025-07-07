@@ -45,3 +45,11 @@ Files without the `metadata` block start directly with the sentence keys.  Regar
   }
 }
 ```
+
+---
+
+Some files use native scripts or region‑specific orthographies. Lines may not be strictly normalized, so minor formatting differences are expected.
+
+---
+
+These datasets are provided "as is" without warranty. They are intended for language learning, linguistics research, and natural language processing experiments.
